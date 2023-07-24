@@ -93,4 +93,17 @@ body {
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif; }
 
+@media screen and (min-width: 0px) and (max-width: 1553px) {
+  .container {
+    flex-direction: column;
+    height: 80%; }
+    .container .container-image {
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 5px; }
+    .container .container-content {
+      height: 100%;
+      margin-top: 5px; }
+      .container .container-content .paragraph {
+        margin-bottom: 0; } }
+
 /*# sourceMappingURL=style.css.map */
