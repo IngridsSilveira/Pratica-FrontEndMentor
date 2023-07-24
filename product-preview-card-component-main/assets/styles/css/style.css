@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2ebe3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  height: 500px;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  .container .container-image {
+    width: 100%;
+    height: 500px;
+    background: url("../../images/image-product-desktop.jpg") center/cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  .container .container-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .container .container-content h1 {
+      width: 260px;
+      letter-spacing: 3px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem;
+      color: #6c7289; }
+    .container .container-content h2 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      width: 260px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem; }
+    .container .container-content .paragraph {
+      width: 250px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      color: #6c7289;
+      margin-bottom: 30px; }
+    .container .container-content .container-price {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center; }
+      .container .container-content .container-price .priceOne {
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-family: "Fraunces", serif;
+        color: #3c8067; }
+      .container .container-content .container-price .priceTwo {
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: "Fraunces", serif;
+        color: #6c7289;
+        text-decoration: line-through; }
+    .container .container-content button {
+      margin-top: 20px;
+      width: 80%;
+      padding: 15px;
+      color: white;
+      background-color: #3c8067;
+      border: none;
+      border-radius: 10px;
+      font-family: "Fraunces", serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px; }
+      .container .container-content button img {
+        margin-right: 8px;
+        width: 20px; }
+      .container .container-content button:hover {
+        background-color: #1c232b;
+        cursor: pointer; }
+
+.attribution {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
