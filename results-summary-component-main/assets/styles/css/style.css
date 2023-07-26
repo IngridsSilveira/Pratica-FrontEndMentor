@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.container {
+  display: flex;
+  width: 40%;
+  height: 550px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5%; }
+  .container .container-purple {
+    width: 50%;
+    background: linear-gradient(#7857ff 70%, #2e2be9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5%; }
+    .container .container-purple h1 {
+      color: rgba(235, 241, 255, 0.829); }
+    .container .container-purple .container-circle {
+      color: #ebf1ff;
+      background: linear-gradient(#4e21ca 5%, rgba(36, 33, 202, 0) 100%);
+      border-radius: 50%;
+      width: 40%;
+      height: 35%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .container .container-purple .container-circle p {
+        font-size: 4rem;
+        font-weight: bold; }
+      .container .container-purple .container-circle span {
+        font-size: 1.1rem;
+        color: rgba(235, 241, 255, 0.829); }
+    .container .container-purple h2 {
+      color: #ebf1ff;
+      font-size: 2rem; }
+    .container .container-purple .text {
+      color: #ebf1ff;
+      width: 230px; }
+  .container .container-white {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px; }
+    .container .container-white .container-text {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start; }
+    .container .container-white button {
+      width: 60%;
+      background-color: #303b5a;
+      padding: 15px;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 25px;
+      border: none; }
+      .container .container-white button:hover {
+        cursor: pointer;
+        background-color: #c8c7ff; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  width: 40%;
+  height: 550px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5%;
+  .container-purple {
+    width: 50%;
+    background: linear-gradient(
+      hsl(252, 100%, 67%) 70%,
+      hsl(241, 81%, 54%) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5%;
+    h1 {
+      color: hsla(222, 100%, 96%, 0.829);
+    }
+    .container-circle {
+      color: hsl(221, 100%, 96%);
+      background: linear-gradient(
+        hsla(256, 72%, 46%, 1) 5%,
+        hsla(241, 72%, 46%, 0) 100%
+      );
+      border-radius: 50%;
+      width: 40%;
+      height: 35%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      p {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+      span {
+        font-size: 1.1rem;
+        color: hsla(222, 100%, 96%, 0.829);
+      }
+    }
+    h2 {
+      color: hsl(221, 100%, 96%);
+      font-size: 2rem;
+    }
+    .text {
+      color: hsl(221, 100%, 96%);
+      width: 230px;
+    }
+  }
+  .container-white {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    .container-text {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    button {
+      width: 60%;
+      background-color: hsl(224, 30%, 27%);
+      padding: 15px;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 25px;
+      border: none;
+      &:hover {
+        cursor: pointer;
+        background-color: hsl(241, 100%, 89%);
+      }
+    }
+  }
+}
