@@ -20,7 +20,7 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5%;
   .container-purple {
-    width: 50%;
+    width: 60%;
     background: linear-gradient(
       hsl(252, 100%, 67%) 70%,
       hsl(241, 81%, 54%) 100%
@@ -40,7 +40,7 @@ body {
         hsla(241, 72%, 46%, 0) 100%
       );
       border-radius: 50%;
-      width: 40%;
+      width: 50%;
       height: 35%;
       display: flex;
       align-items: center;
@@ -65,19 +65,69 @@ body {
     }
   }
   .container-white {
+    h1 {
+      font-size: 1.5rem;
+    }
     width: 50%;
+    height: 520px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    align-items: flex-start;
     margin-left: 50px;
     .container-text {
       display: flex;
-      width: 100%;
+      width: 90%;
       justify-content: space-between;
+      padding: 15px;
+      border-radius: 8px;
+      &:hover {
+        cursor: pointer;
+        transform: scale(.9);
+      }
+      .ct-flex-direction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          margin-right: 8px;
+        }
+        h5 {
+          font-weight: normal;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .cem {
+      color: #c2c2c2;
+      font-weight: bold;
+    }
+    .red {
+      background-color: hsla(0, 100%, 67%, 0.062);
+      h5 {
+        color: hsl(0, 100%, 67%);
+        
+      }
+    }
+    .yellow {
+      background-color: hsla(39, 100%, 56%, 0.068);
+      h5 {
+        color: hsl(39, 100%, 56%);
+      }
+    }
+    .green {
+      background-color: hsla(166, 100%, 37%, 0.089);
+      h5 {
+        color: hsl(166, 100%, 37%);
+      }
+    }
+    .purple {
+      background-color: hsla(234, 85%, 45%, 0.11);
+      h5 {
+        color: hsl(234, 85%, 45%);
+      }
     }
     button {
-      width: 60%;
+      width: 90%;
       background-color: hsl(224, 30%, 27%);
       padding: 15px;
       color: #fff;
@@ -87,8 +137,32 @@ body {
       border: none;
       &:hover {
         cursor: pointer;
-        background-color: hsl(241, 100%, 89%);
+        background-color: hsl(241, 100%, 38%);
       }
     }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1445px){
+  .container {
+      flex-direction: column;
+      height: 90%;
+      .container-purple {
+        width: 100%;
+        height: 460px;
+        .container-circle {
+          width: 35%;
+          height: 50%;
+        }
+        .text {
+          width: 300px;
+        }
+      }
+      .container-white {
+        width: 100%;
+        height: 520px;
+        margin-left: 0;
+        align-items: center;
+      }
   }
 }
