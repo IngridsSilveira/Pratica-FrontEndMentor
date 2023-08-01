@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 body {
   width: 100%;
@@ -31,27 +31,72 @@ body {
       .container .container-div .container-text p {
         width: 720px;
         font-size: 1.3rem; }
-    .container .container-div .container-form .container-free {
-      color: #fff;
-      background-color: #6055a5;
-      width: 100%;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77); }
-      .container .container-div .container-form .container-free:hover {
-        transform: scale(1.2);
-        cursor: pointer; }
-    .container .container-div .container-form .form {
-      background-color: #fff;
-      box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-      margin-top: 20px;
-      border-radius: 10px;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      height: 500px; }
+    .container .container-div .container-form {
+      width: 550px; }
+      .container .container-div .container-form .container-free {
+        color: #fff;
+        background-color: #6055a5;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77); }
+        .container .container-div .container-form .container-free:hover {
+          transform: scale(1.2);
+          cursor: pointer; }
+      .container .container-div .container-form .form {
+        background-color: #fff;
+        box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+        margin-top: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px; }
+        .container .container-div .container-form .form input {
+          border: 1px solid #ccc;
+          padding: 15px;
+          width: 100%;
+          margin: 20px 0;
+          border-radius: 10px; }
+        .container .container-div .container-form .form .email-red::placeholder {
+          color: #ff7a7a;
+          font-weight: bold; }
+        .container .container-div .container-form .form span {
+          color: #ff7a7a;
+          margin-top: -10px;
+          font-size: 0.8rem; }
+        .container .container-div .container-form .form button {
+          margin-top: 20px;
+          padding: 15px;
+          width: 100%;
+          color: #fff;
+          background-color: #38cc8c;
+          border-radius: 10px;
+          border: none;
+          text-transform: uppercase;
+          font-size: 1rem;
+          letter-spacing: 2px;
+          font-weight: bold;
+          margin-bottom: 15px; }
+          .container .container-div .container-form .form button:hover {
+            cursor: pointer;
+            background-color: #36ec9d; }
+        .container .container-div .container-form .form div {
+          margin: 0 auto;
+          font-size: 0.8rem;
+          color: #b9b6d3; }
+          .container .container-div .container-form .form div a {
+            color: #ff7a7a;
+            text-decoration: none;
+            font-weight: bold; }
+  .container .attribution {
+    font-size: 1.2rem; }
+    .container .attribution a {
+      text-decoration: none;
+      color: #000; }
+  .container .input-red {
+    border: 2px solid #ff7a7a !important; }
 
 /*# sourceMappingURL=style.css.map */
