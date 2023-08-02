@@ -124,3 +124,25 @@ body {
     border: 2px solid $color-red !important;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 1330px) {
+  .container {
+    .container-div {
+      flex-direction: column;
+      .container-text {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        p {
+          width: 100%;
+        }
+      }
+      .container-form {
+        width: 60%;
+      }
+    }
+  }
+}

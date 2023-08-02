@@ -99,4 +99,19 @@ body {
   .container .input-red {
     border: 2px solid #ff7a7a !important; }
 
+@media screen and (min-width: 0px) and (max-width: 1330px) {
+  .container .container-div {
+    flex-direction: column; }
+    .container .container-div .container-text {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 60%; }
+      .container .container-div .container-text p {
+        width: 100%; }
+    .container .container-div .container-form {
+      width: 60%; } }
+
 /*# sourceMappingURL=style.css.map */
