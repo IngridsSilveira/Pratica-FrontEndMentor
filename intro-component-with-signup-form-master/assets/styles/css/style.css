@@ -54,11 +54,27 @@ body {
         justify-content: center;
         flex-direction: column;
         padding: 30px; }
+        .container .container-div .container-form .form .input-icons {
+          width: 100%;
+          position: relative;
+          margin: 20px 0; }
+        .container .container-div .container-form .form .input-icons i {
+          position: absolute;
+          right: 0px;
+          bottom: 6px; }
+        .container .container-div .container-form .form .teste {
+          display: block !important; }
+        .container .container-div .container-form .form .icon {
+          display: none;
+          padding: 10px;
+          color: #ff7a7a;
+          min-width: 50px;
+          text-align: center;
+          font-size: 1.1rem; }
         .container .container-div .container-form .form input {
           border: 1px solid #ccc;
           padding: 15px;
           width: 100%;
-          margin: 20px 0;
           border-radius: 10px; }
         .container .container-div .container-form .form .email-red::placeholder {
           color: #ff7a7a;

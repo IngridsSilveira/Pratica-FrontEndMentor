@@ -66,11 +66,32 @@ body {
         justify-content: center;
         flex-direction: column;
         padding: 30px;
+
+        .input-icons {
+          width: 100%;
+          position: relative;
+          margin: 20px 0;
+        }
+        .input-icons i {
+          position: absolute;
+          right: 0px;
+          bottom: 6px;  
+        }
+        .teste {
+          display: block !important;
+        }
+        .icon {
+          display: none;
+          padding: 10px;
+          color: $color-red;
+          min-width: 50px;
+          text-align: center;
+          font-size: 1.1rem;
+        }
         input {
           border: 1px solid #ccc;
           padding: 15px;
           width: 100%;
-          margin: 20px 0;
           border-radius: 10px;
         }
         .email-red::placeholder {
